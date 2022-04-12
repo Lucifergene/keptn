@@ -48,11 +48,11 @@ nats:
 
     resources:
       requests:
-        memory: "32Mi"
-        cpu: "10m"
+        memory: "16Mi"
+        cpu: "5m"
       limits:
         memory: "64Mi"
-        cpu: "100m"
+        cpu: "50m"
 
     securityContext:
       runAsUser: 65532
